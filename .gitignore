@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Trained model weights (large binary files > 25MB)
+# MobileNetV2 .keras files are ~14MB, but keeping large weights out of standard Git commits
+# is best practice. Keep models directory tracked with .gitkeep
+models/*.keras
+models/*.h5
+!models/.gitkeep
+
+# Dataset images (do NOT upload large datasets to GitHub)
+# Keep dataset structure tracked via README.md and .gitkeep
+dataset/train/fresh/*
+!dataset/train/fresh/.gitkeep
+dataset/train/spoiled/*
+!dataset/train/spoiled/.gitkeep
+dataset/validation/fresh/*
+!dataset/validation/fresh/.gitkeep
+dataset/validation/spoiled/*
+!dataset/validation/spoiled/.gitkeep
+dataset/test/fresh/*
+!dataset/test/fresh/.gitkeep
+dataset/test/spoiled/*
+!dataset/test/spoiled/.gitkeep
+
+# Temporary / logs
+*.log
+scratch/
+temp/
+tmp/
