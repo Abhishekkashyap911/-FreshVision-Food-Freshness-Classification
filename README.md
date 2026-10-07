@@ -334,8 +334,9 @@ FreshVision/
 
 ## 20. Author & Acknowledgments
 
-- **Author:** B.Tech Computer Science & Engineering Student
-- **Institution:** Department of Computer Science & Engineering
+- **Author:** ABHISHEK KASHYAP B.Tech Computer Science & Engineering Student
+- **Institution:** COER UNIVERSITY
+- Department of Computer Science & Engineering
 - **Mentorship:** Deep Learning & Computer Vision Coursework
 - **Pre-trained Model:** MobileNetV2 courtesy of Google Research & Keras Team
 
